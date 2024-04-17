@@ -1,0 +1,116 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    paddingTop: 50,
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: 'indigo',
+    width: '80%',
+  },
+  image: {
+    width: 280,
+    height: 200,
+  },
+  input: {
+    width: '80%',
+    padding: 15,
+    height: 50,
+    marginTop: 10,
+    marginBottom: 30,
+    borderWidth: 2,
+    borderRadius: 25,
+    borderColor: 'indigo',
+    fontSize: 18,
+  },
+  button: {
+    backgroundColor: 'khaki',
+    justifyContent: 'center',
+    height: 60,
+    borderRadius: 30,
+    marginBottom: 10,
+    width: '80%',
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+    shadowOffset: { width: 0, height: 2 },
+  },
+  buttonText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: 'indigo',
+    textAlign: 'center',
+  },
+  resultContainer: {
+    paddingVertical: 15,
+    alignItems: 'left',
+  },
+  resultText: {
+    fontSize: 18,
+    color: 'indigo',
+    fontWeight: '500',
+    textAlign: 'left',
+    padding: 5,
+  },
+  categoryText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textDecorationLine: 'underline',
+    textDecorationColor: 'khaki',
+    color: 'indigo',
+    padding: 5,
+  },
+  centeredView: {
+    flex: 1,
+    justifyContent: 'center', 
+    alignItems: 'center',
+    
+  },
+  modalView: {
+    width: '90%',
+    backgroundColor: 'lavender',
+    borderRadius: 20,
+    paddingVertical: 35,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  modalTitle: {
+    marginBottom: 15,
+    color: 'indigo',
+    fontWeight: 'bold',
+    textAlign: 'center',
+    fontSize: 22,
+  },
+  modalText: {
+    marginBottom: 10,
+    color: 'indigo',
+    fontWeight: '300',
+    textAlign: 'center',
+    fontSize: 18,
+  },
+  buttonClose: {
+    backgroundColor: 'indigo',
+    borderRadius: 20,
+    marginTop: 15,
+    paddingHorizontal: 30,
+    paddingVertical: 10,
+    elevation: 2,
+  },
+  textStyle: {
+    color: 'white',
+    fontWeight: 'bold',
+    textAlign: 'center',
+  },
+});
+
