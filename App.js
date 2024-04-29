@@ -4,7 +4,6 @@ import { UserProvider } from './auth/UserContext';
 import AppNavigator from './navigation/AppNavigator';
 import { initDb } from './database'; 
 
-
 const App = () => {
 
   useEffect(() => {
